@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-dark {
+    @apply bg-main text-grey;
+}
+
+.theme-light {
+    @apply bg-white text-main;
+}
+
+@font-face {
+    font-family: operatorMonoItalics;
+    src: url("/fonts/OperatorMono-MediumItalic.otf");
+}
+
+html {
+    font-family: operatorMonoItalics;
+    font-size: 16px;
+    font-weight: 700;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
