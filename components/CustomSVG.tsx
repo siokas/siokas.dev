@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function CustomSVG({ icon, size, color }) {
-  const customClass = `inline h-${size} ${color}`;
+  const customClass = `inline h-3 ${color}`;
 
   switch (icon) {
     case "database":

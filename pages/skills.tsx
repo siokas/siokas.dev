@@ -35,7 +35,6 @@ export default function Skills() {
               key={skill.link}
               icon={skill.icon}
               iconColor={skill.iconColor}
-              textColor={skill.textColor}
               customCss="ml-2 pb-1 md:inline"
             >
               <a className="text-blue-dark no-underline mx-2" href={skill.link}>

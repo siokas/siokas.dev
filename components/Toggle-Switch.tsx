@@ -17,7 +17,7 @@ function ToggleSwitch() {
 
   return (
     <div className="flex m-2 mx-auto">
-      <span className="mr-2">Light</span>
+      <span className="mr-2">☀️</span>
       <span
         className={"border rounded-full border-grey flex cursor-pointer w-12 " +
           getClasses()[0]}
@@ -29,7 +29,7 @@ function ToggleSwitch() {
         >
         </span>
       </span>
-      <span className="ml-2">Dark</span>
+      <span className="ml-2">🌙</span>
     </div>
   );
 }

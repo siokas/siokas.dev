@@ -16,7 +16,10 @@ function Command(
     img = <CustomSVG icon={icon} size={iconSize} color={iconColor} />;
   }
   return (
-    <div className={"pb-1 " + " " + textColor + " " + customCss}>
+    <div
+      className={"pb-1" + (textColor != "" ? " " + textColor : "") +
+        (customCss != "" ? " " + customCss : "")}
+    >
       {img}
       {children}
     </div>
